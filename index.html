@@ -1,58 +1,143 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#f4f6f1">
-<title>بوابة اللغة العربية | ملحقة الجلفة</title>
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#202b55">
+<title>بوابة اللغة العربية | ملحقة المدرسة العليا للأساتذة - الجلفة</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 <style>
-:root{--bg:#f4f6f1;--paper:#fff;--ink:#23352c;--muted:#78867d;--green:#315d49;--green2:#e7efe8;--line:#e7ebe5;--blue:#edf1f7;--blueink:#405b7a;--gold:#b38b4d;--shadow:0 12px 36px #263b2c0b}
-*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:Tajawal,Arial,sans-serif}button,input{font:inherit}button{cursor:pointer}.shell{max-width:1160px;margin:auto;padding:22px}.top{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:28px}.brand{display:flex;align-items:center;gap:12px}.mark{width:46px;height:46px;border-radius:15px;background:var(--green);display:grid;place-items:center;color:#fff;font-size:23px;font-weight:800}.brand h1{font-size:18px;margin:0 0 2px}.brand p{font-size:12px;color:var(--muted);margin:0}.top-actions{display:flex;gap:9px;align-items:center}.pill,.btn{border:1px solid var(--line);background:#fff;color:var(--ink);padding:10px 15px;border-radius:12px;font-weight:700}.btn.primary{background:var(--green);color:#fff;border-color:var(--green)}.hero{background:linear-gradient(120deg,#294d3d,#416b53);color:#fff;border-radius:25px;padding:30px;display:flex;justify-content:space-between;align-items:center;gap:20px;box-shadow:var(--shadow)}.eyebrow{font-size:12px;letter-spacing:.3px;color:#d7e5da}.hero h2{font-size:clamp(24px,4vw,36px);margin:10px 0}.hero p{color:#e2ece4;margin:0;max-width:580px;line-height:1.8}.hero-badge{border:1px solid #ffffff55;border-radius:18px;padding:16px 20px;text-align:center;min-width:130px}.hero-badge strong{display:block;font-size:27px}.section-head{display:flex;align-items:end;justify-content:space-between;margin:30px 0 14px}.section-head h3{font-size:20px;margin:0}.section-head p{font-size:13px;color:var(--muted);margin:4px 0 0}.groups{display:grid;grid-template-columns:1fr 1fr;gap:16px}.group{border:1px solid var(--line);background:var(--paper);border-radius:20px;padding:22px;text-align:right;transition:.2s;box-shadow:var(--shadow)}.group:hover{transform:translateY(-2px);border-color:#c4d5c8}.group .tag{font-size:12px;color:var(--muted)}.group h4{font-size:25px;margin:9px 0 3px}.group p{color:var(--muted);margin:0 0 18px}.group.a .group-code{background:var(--green2);color:var(--green)}.group.b .group-code{background:var(--blue);color:var(--blueink)}.group-code{display:inline-grid;place-items:center;width:43px;height:43px;border-radius:13px;font-weight:800;font-size:19px}.group-foot{display:flex;align-items:center;justify-content:space-between}.arrow{font-size:20px;color:var(--gold)}.features{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:16px}.feature{background:#fff;border:1px solid var(--line);border-radius:16px;padding:17px}.feature b{display:block;margin:8px 0 4px}.feature small{color:var(--muted);line-height:1.6}.ficon{width:34px;height:34px;border-radius:10px;background:var(--green2);color:var(--green);display:grid;place-items:center;font-weight:800}.panel{display:none;margin-top:22px;background:#fff;border:1px solid var(--line);border-radius:20px;padding:22px}.panel.active{display:block}.panel-head{display:flex;justify-content:space-between;align-items:center;gap:12px}.panel-head h3{margin:0;font-size:23px}.tabs{display:flex;gap:8px;flex-wrap:wrap;margin:18px 0}.tab{border:1px solid var(--line);background:#fff;padding:9px 14px;border-radius:10px;color:var(--muted)}.tab.active{background:var(--green2);color:var(--green);border-color:#d2e1d5;font-weight:800}.empty{border:1px dashed #d5ddd5;background:#fafbf9;padding:30px;border-radius:15px;text-align:center;color:var(--muted);line-height:1.8}.list{display:grid;gap:10px}.item{border:1px solid var(--line);border-radius:13px;padding:14px;display:flex;justify-content:space-between;align-items:center;gap:12px}.item small{display:block;color:var(--muted);margin-top:4px}.notice{margin-top:22px;padding:15px 18px;border-radius:14px;background:#f8f3e9;color:#6e5934;font-size:13px;line-height:1.7}.footer{text-align:center;color:var(--muted);font-size:12px;padding:28px 0 12px}.modal-back{position:fixed;inset:0;background:#14251dcc;display:none;place-items:center;padding:18px;z-index:5}.modal-back.show{display:grid}.modal{width:min(440px,100%);background:#fff;border-radius:20px;padding:24px}.modal h3{margin:0 0 6px}.modal p{color:var(--muted);font-size:13px;line-height:1.7}.field{display:grid;gap:6px;margin:14px 0}.field label{font-weight:700;font-size:13px}.field input{border:1px solid var(--line);border-radius:11px;padding:12px;outline-color:var(--green)}.modal-actions{display:flex;gap:8px;margin-top:18px}.modal-actions button{flex:1}
-@media(max-width:720px){.shell{padding:15px}.hero{padding:23px;align-items:flex-start}.hero-badge{min-width:90px;padding:12px}.groups{grid-template-columns:1fr}.features{grid-template-columns:1fr 1fr}.top{align-items:flex-start}.brand p{max-width:220px}.top-actions .pill{display:none}}
-@media(max-width:400px){.features{grid-template-columns:1fr}.hero-badge{display:none}}
+*{box-sizing:border-box}
+:root{--ink:#17213b;--muted:#71809b;--primary:#5865f2;--primary-dark:#4048c8;--violet:#7c3aed;--card:rgba(255,255,255,.86);--border:rgba(255,255,255,.76);--shadow:0 24px 70px rgba(37,45,90,.12)}
+html{scroll-behavior:smooth}
+body{margin:0;min-height:100vh;font-family:Tajawal,"Segoe UI",Tahoma,Arial,sans-serif;color:var(--ink);background:radial-gradient(circle at 0 0,rgba(88,101,242,.16),transparent 30%),radial-gradient(circle at 100% 15%,rgba(124,58,237,.13),transparent 28%),linear-gradient(145deg,#f7f9ff 0%,#eef2ff 52%,#faf8ff 100%);overflow-x:hidden}
+body:before,body:after{content:"";position:fixed;z-index:-1;border-radius:50%;pointer-events:none;filter:blur(2px)}
+body:before{width:320px;height:320px;left:-170px;top:45%;background:rgba(96,165,250,.15)}
+body:after{width:360px;height:360px;right:-190px;bottom:8%;background:rgba(167,139,250,.13)}
+.site-header{position:relative;overflow:hidden;text-align:center;color:#fff;padding:42px 18px 78px;background:radial-gradient(circle at 15% 10%,rgba(255,255,255,.12),transparent 28%),linear-gradient(135deg,#111936 0%,#3847cf 50%,#6d35d9 100%);box-shadow:0 18px 50px rgba(45,48,140,.2)}
+.site-header:before,.site-header:after{content:"";position:absolute;border-radius:50%;border:1px solid rgba(255,255,255,.1);background:rgba(255,255,255,.045);pointer-events:none}
+.site-header:before{width:380px;height:380px;left:-170px;top:-260px}.site-header:after{width:320px;height:320px;right:-150px;bottom:-240px}
+.logo{position:relative;width:72px;height:72px;margin:0 auto 12px;border-radius:22px;background:rgba(255,255,255,.97);color:#4f46e5;display:flex;align-items:center;justify-content:center;font-size:19px;font-weight:950;letter-spacing:-.5px;box-shadow:0 16px 38px rgba(0,0,0,.2)}
+.brand-kicker{position:relative;font-size:11px;font-weight:800;letter-spacing:2px;opacity:.78;margin-bottom:5px}.site-header h1{position:relative;margin:0;font-size:30px;font-weight:950}.site-header p{position:relative;margin:8px 0 0;font-size:14px;opacity:.86}
+.shell{max-width:960px;margin:-43px auto 0;padding:0 16px;position:relative;z-index:2}
+.card{background:var(--card);border:1px solid var(--border);border-radius:28px;box-shadow:var(--shadow);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);padding:28px}
+.home-heading{text-align:center;margin:0 0 23px}.eyebrow{display:inline-block;font-size:11px;font-weight:900;letter-spacing:1.3px;color:#5865f2;background:#eef0ff;padding:7px 12px;border-radius:999px;margin-bottom:10px}.home-heading h2{margin:0;font-size:27px;font-weight:950;color:#18213b}.home-heading p{margin:7px 0 0;color:#78839b;font-size:13px;line-height:1.7}
+.groups{display:grid;grid-template-columns:1fr 1fr;gap:17px}
+.group{position:relative;overflow:hidden;min-height:176px;text-align:right;border:1px solid rgba(221,226,241,.9);border-radius:23px;padding:22px;background:linear-gradient(145deg,rgba(255,255,255,.98),rgba(245,247,255,.84));box-shadow:0 12px 30px rgba(45,55,100,.07);cursor:pointer;transition:transform .22s ease,box-shadow .22s ease,border-color .22s ease;color:var(--ink);font-family:inherit}
+.group:after{content:"";position:absolute;width:120px;height:120px;border-radius:50%;left:-45px;bottom:-65px;background:rgba(88,101,242,.08);pointer-events:none}.group:hover{transform:translateY(-4px);box-shadow:0 16px 32px rgba(45,55,100,.11);border-color:#cfd6ff}.group:active{transform:scale(.985)}
+.group-top,.group-bottom{position:relative;z-index:1;display:flex;align-items:center;justify-content:space-between;gap:12px}
+.group-code{width:50px;height:50px;border-radius:15px;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,#5865f2,#7c3aed);color:#fff;font-size:20px;font-weight:950;box-shadow:0 9px 20px rgba(79,70,229,.2)}
+.group-tag{font-size:11px;font-weight:800;color:#5865f2;background:#eef0ff;padding:7px 10px;border-radius:999px}
+.group h3{position:relative;z-index:1;font-size:22px;margin:17px 0 4px;font-weight:950}.group p{position:relative;z-index:1;font-size:13px;color:var(--muted);margin:0 0 16px}.group-bottom{font-size:12px;font-weight:800;color:#5361c9}.arrow{font-size:20px}
+.section-title{text-align:center;font-size:20px;font-weight:950;margin:27px 0 14px}.features{display:grid;grid-template-columns:repeat(4,1fr);gap:11px}
+.feature{background:linear-gradient(145deg,rgba(255,255,255,.98),rgba(247,248,255,.9));border:1px solid rgba(221,226,241,.9);border-radius:17px;padding:15px;box-shadow:0 7px 20px rgba(45,55,100,.045);min-width:0}
+.feature-icon{width:36px;height:36px;border-radius:11px;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,#5865f2,#7c3aed);color:#fff;font-size:14px;font-weight:900;margin-bottom:10px}.feature b{display:block;font-size:14px;margin-bottom:4px}.feature small{font-size:11px;color:var(--muted);line-height:1.65}
+.panel{display:none;margin-top:19px}.panel.active{display:block;animation:pageIn .4s ease both}.panel-head{display:flex;align-items:center;justify-content:space-between;gap:12px}.panel-head h3{font-size:22px;margin:0;font-weight:950}.panel-head p{font-size:12px;color:var(--muted);margin:5px 0 0}.badge{background:linear-gradient(135deg,#4f46e5,#7c3aed);color:#fff;padding:8px 12px;border-radius:999px;font-size:12px;font-weight:800;box-shadow:0 7px 18px rgba(79,70,229,.18)}
+.tabs{display:flex;gap:8px;flex-wrap:wrap;margin:20px 0 15px}.tab,.btn{border:1px solid #e0e5f2;border-radius:12px;padding:10px 14px;background:linear-gradient(135deg,#f0f2ff,#f4efff);color:#4656c8;font-family:inherit;font-size:13px;font-weight:850;cursor:pointer;transition:transform .18s ease,box-shadow .18s ease,background .18s ease}.tab:hover,.btn:hover{transform:translateY(-2px);box-shadow:0 9px 18px rgba(74,74,180,.1)}.tab.active,.btn.primary{background:linear-gradient(135deg,#5865f2,#7c3aed);color:#fff;border-color:transparent}
+.empty{padding:42px 18px;text-align:center;border:1px dashed #d7ddef;border-radius:18px;background:rgba(250,251,255,.75);color:#7a8498;font-size:13px;line-height:1.8}.empty strong{display:block;color:#263765;font-size:17px;margin-bottom:6px}
+.notice{margin-top:18px;padding:13px 16px;border:1px solid #e5e8f6;border-radius:14px;background:rgba(255,255,255,.66);color:#68748d;font-size:12px;line-height:1.8}
+.footer{text-align:center;color:#8a93a5;font-size:12px;padding:22px 12px 28px}
+.modal-back{position:fixed;inset:0;background:rgba(17,25,54,.66);display:none;place-items:center;padding:18px;z-index:10}.modal-back.show{display:grid}.modal{width:min(430px,100%);background:#fff;border:1px solid #e8eaf5;border-radius:23px;padding:24px;box-shadow:0 25px 80px #11193644;animation:pageIn .25s ease}.modal h3{font-size:21px;margin:0 0 7px}.modal p{font-size:13px;color:var(--muted);line-height:1.7}.field{display:grid;gap:7px;margin:14px 0}.field label{font-size:13px;font-weight:800}.field input{width:100%;border:1px solid #e0e5f2;border-radius:11px;padding:12px;font:inherit;outline-color:#5865f2}.modal-actions{display:flex;gap:9px;margin-top:18px}.modal-actions button{flex:1}
+@keyframes pageIn{from{opacity:0;transform:translateY(18px) scale(.99)}to{opacity:1;transform:none}}
+@keyframes itemIn{from{opacity:0;transform:translateY(13px)}to{opacity:1;transform:none}}
+.group{animation:itemIn .5s cubic-bezier(.22,.8,.3,1) both}.group:nth-child(2){animation-delay:.1s}.feature{animation:itemIn .45s ease both}.feature:nth-child(2){animation-delay:.06s}.feature:nth-child(3){animation-delay:.12s}.feature:nth-child(4){animation-delay:.18s}
+@media(max-width:680px){.site-header{padding:35px 15px 65px}.logo{width:66px;height:66px;border-radius:20px}.site-header h1{font-size:25px}.site-header p{font-size:12px}.shell{margin-top:-30px;padding:0 11px}.card{padding:18px;border-radius:23px}.home-heading h2{font-size:22px}.groups{grid-template-columns:1fr;gap:12px}.group{min-height:155px;padding:18px}.features{grid-template-columns:1fr 1fr}.panel-head{align-items:flex-start}.panel-head h3{font-size:19px}.tabs{gap:6px}.tab{padding:9px 10px;font-size:12px}}
+@media(max-width:380px){.features{grid-template-columns:1fr}.group h3{font-size:20px}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
 </style>
 </head>
 <body>
-<div class="shell">
-<header class="top">
- <div class="brand"><div class="mark">ض</div><div><h1>بوابة اللغة العربية</h1><p>ملحقة المدرسة العليا للأساتذة · الجلفة</p></div></div>
- <div class="top-actions"><span class="pill">التعليم الابتدائي</span><button class="btn primary" id="loginOpen">دخول المنصة</button></div>
+<header class="site-header">
+ <div class="logo">ENSD</div>
+ <div class="brand-kicker">STUDENT & TEACHER PORTAL</div>
+ <h1>بوابة اللغة العربية</h1>
+ <p>ملحقة المدرسة العليا للأساتذة - الجلفة -</p>
 </header>
-<section class="hero">
- <div><div class="eyebrow">فضاء أكاديمي موحّد للأساتذة والطلبة</div><h2>مساحتكم التعليمية في مكان واحد</h2><p>تابعوا المحاضرات والملفات والإعلانات والأنشطة البيداغوجية، ضمن فضاء منظم يجمع جميع أفواج تخصص اللغة العربية.</p></div>
- <div class="hero-badge"><strong>02</strong><span>مجموعتان دراسيتان</span></div>
-</section>
-<div class="section-head"><div><h3>اختر مجموعتك</h3><p>تصفح فضاء المجموعة ومحتواها الدراسي</p></div></div>
-<section class="groups">
- <button class="group a" data-group="A"><div class="group-foot"><span class="group-code">A</span><span class="tag">فضاء المجموعة الأولى</span></div><h4>المجموعة A</h4><p>المدرج أ</p><div class="group-foot"><b>الدروس والموارد والإعلانات</b><span class="arrow">←</span></div></button>
- <button class="group b" data-group="B"><div class="group-foot"><span class="group-code">B</span><span class="tag">فضاء المجموعة الثانية</span></div><h4>المجموعة B</h4><p>المدرج د</p><div class="group-foot"><b>الدروس والموارد والإعلانات</b><span class="arrow">←</span></div></button>
-</section>
-<div class="section-head"><div><h3>ماذا توفر البوابة؟</h3><p>خدمات تعليمية منظمة للطالب والأستاذ</p></div></div>
-<section class="features">
- <div class="feature"><div class="ficon">د</div><b>المحاضرات والدروس</b><small>تنظيم الدروس حسب المقياس والأستاذ والمجموعة.</small></div>
- <div class="feature"><div class="ficon">و</div><b>الواجبات والبحوث</b><small>متابعة التكليفات والأنشطة والأعمال الموجهة.</small></div>
- <div class="feature"><div class="ficon">ع</div><b>الإعلانات</b><small>إعلانات وتنبيهات تخص كل مجموعة.</small></div>
- <div class="feature"><div class="ficon">م</div><b>مكتبة الموارد</b><small>ملفات ومحاضرات ومراجع قابلة للتحميل.</small></div>
-</section>
-<section class="panel" id="groupPanel">
- <div class="panel-head"><div><h3 id="panelTitle">فضاء المجموعة</h3><p id="panelSubtitle" style="color:var(--muted);margin:5px 0 0"></p></div><button class="btn" id="backHome">العودة</button></div>
- <div class="tabs"><button class="tab active" data-tab="lectures">المحاضرات</button><button class="tab" data-tab="schedule">التوقيت</button><button class="tab" data-tab="announcements">الإعلانات</button><button class="tab" data-tab="assignments">الواجبات</button><button class="tab" data-tab="library">المكتبة</button></div>
- <div id="tabContent" class="empty">سيظهر محتوى هذه المجموعة هنا بعد إضافة المواد من حسابات الأساتذة.</div>
-</section>
-<div class="notice">تنبيه: هذه النسخة هي الواجهة التأسيسية للبوابة. تسجيل الدخول الفعلي، صلاحيات الأساتذة والطلبة، وحفظ الملفات والبيانات ستُفعّل بعد ربط قاعدة البيانات وإعداد حسابات المنصة.</div>
-<footer class="footer">بوابة اللغة العربية · ملحقة المدرسة العليا للأساتذة بالجلفة</footer>
+<main class="shell">
+ <section class="card" id="home">
+  <div class="home-heading">
+   <div class="eyebrow">ENSD • ARABIC LANGUAGE</div>
+   <h2>الفضاء الأكاديمي لتخصص اللغة العربية</h2>
+   <p>بوابة موحدة تجمع الأساتذة والطلبة، وتتيح لكل مجموعة الوصول إلى محتواها الدراسي الخاص.</p>
+  </div>
+  <div class="groups">
+   <button class="group" data-group="A">
+    <div class="group-top"><span class="group-code">A</span><span class="group-tag">GROUP A</span></div>
+    <h3>المجموعة A</h3><p>المدرج أ</p>
+    <div class="group-bottom"><span>الدروس والإعلانات والموارد</span><span class="arrow">←</span></div>
+   </button>
+   <button class="group" data-group="B">
+    <div class="group-top"><span class="group-code">B</span><span class="group-tag">GROUP B</span></div>
+    <h3>المجموعة B</h3><p>المدرج د</p>
+    <div class="group-bottom"><span>الدروس والإعلانات والموارد</span><span class="arrow">←</span></div>
+   </button>
+  </div>
+  <h3 class="section-title">خدمات البوابة</h3>
+  <div class="features">
+   <div class="feature"><div class="feature-icon">01</div><b>المحاضرات والدروس</b><small>محتوى مرتب حسب المقياس والأستاذ.</small></div>
+   <div class="feature"><div class="feature-icon">02</div><b>الواجبات والبحوث</b><small>التكليفات والأعمال الموجهة ومتابعتها.</small></div>
+   <div class="feature"><div class="feature-icon">03</div><b>الإعلانات</b><small>مستجدات وتنبيهات خاصة بكل مجموعة.</small></div>
+   <div class="feature"><div class="feature-icon">04</div><b>مكتبة الموارد</b><small>ملفات ومحاضرات ومراجع دراسية.</small></div>
+  </div>
+ </section>
+ <section class="card panel" id="groupPanel">
+  <div class="panel-head">
+   <div><h3 id="panelTitle">فضاء المجموعة</h3><p id="panelSubtitle"></p></div>
+   <span class="badge" id="groupBadge">GROUP A</span>
+  </div>
+  <div style="margin-top:14px"><button class="btn" id="backHome">← العودة إلى المجموعتين</button></div>
+  <div class="tabs">
+   <button class="tab active" data-tab="lectures">المحاضرات</button>
+   <button class="tab" data-tab="schedule">التوقيت</button>
+   <button class="tab" data-tab="announcements">الإعلانات</button>
+   <button class="tab" data-tab="assignments">الواجبات</button>
+   <button class="tab" data-tab="library">المكتبة</button>
+  </div>
+  <div id="tabContent" class="empty"><strong>المحاضرات والدروس</strong>سيظهر هنا المحتوى الذي ينشره أساتذة هذه المجموعة بعد تفعيل الحسابات.</div>
+ </section>
+ <div class="notice">النسخة الحالية واجهة تأسيسية. سيتم تفعيل تسجيل الدخول، حسابات الأساتذة والطلبة، صلاحيات النشر حسب المجموعة، وحفظ الملفات والبيانات عند ربط قاعدة البيانات.</div>
+ <footer class="footer">بوابة اللغة العربية · ملحقة المدرسة العليا للأساتذة بالجلفة</footer>
+</main>
+<div class="modal-back" id="loginModal">
+ <div class="modal">
+  <h3>الدخول إلى البوابة</h3>
+  <p>سيتم تفعيل الحسابات الفردية للأساتذة والطلبة في مرحلة ربط قاعدة البيانات.</p>
+  <div class="field"><label for="email">البريد الإلكتروني</label><input id="email" type="email" placeholder="example@email.com"></div>
+  <div class="field"><label for="password">كلمة المرور</label><input id="password" type="password" placeholder="••••••••"></div>
+  <div class="modal-actions"><button class="btn" id="loginClose">إغلاق</button><button class="btn primary" id="loginInfo">متابعة لاحقاً</button></div>
+ </div>
 </div>
-<div class="modal-back" id="loginModal"><div class="modal"><h3>الدخول إلى البوابة</h3><p>واجهة الدخول مبدئية. سيتم تفعيل الحسابات بعد إعداد نظام المصادقة.</p><div class="field"><label>البريد الإلكتروني</label><input type="email" placeholder="example@email.com"></div><div class="field"><label>كلمة المرور</label><input type="password" placeholder="••••••••"></div><div class="modal-actions"><button class="btn" id="loginClose">إغلاق</button><button class="btn primary" id="loginInfo">متابعة لاحقاً</button></div></div></div>
 <script>
-const panel=document.getElementById('groupPanel'), title=document.getElementById('panelTitle'), subtitle=document.getElementById('panelSubtitle'), content=document.getElementById('tabContent');
+const panel=document.getElementById('groupPanel');
+const title=document.getElementById('panelTitle');
+const subtitle=document.getElementById('panelSubtitle');
+const badge=document.getElementById('groupBadge');
+const content=document.getElementById('tabContent');
 let selected='A';
-const tabLabels={lectures:'المحاضرات والدروس',schedule:'التوقيت والبرنامج الدراسي',announcements:'الإعلانات والتنبيهات',assignments:'الواجبات والأعمال الموجهة',library:'مكتبة الموارد'};
-function openGroup(g){selected=g;title.textContent='المجموعة '+g;subtitle.textContent=g==='A'?'المدرج أ':'المدرج د';panel.classList.add('active');panel.scrollIntoView({behavior:'smooth',block:'start'});render('lectures')}
-function render(tab){document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('active',x.dataset.tab===tab));content.innerHTML='<div style="font-weight:800;color:var(--ink);margin-bottom:7px">'+tabLabels[tab]+'</div><div>لا توجد منشورات بعد في المجموعة '+selected+'.</div><small>ستظهر هنا المواد التي ينشرها أساتذة هذه المجموعة بعد تفعيل الحسابات.</small>'}
-document.querySelectorAll('[data-group]').forEach(b=>b.addEventListener('click',()=>openGroup(b.dataset.group)));
-document.querySelectorAll('[data-tab]').forEach(b=>b.addEventListener('click',()=>render(b.dataset.tab)));
-document.getElementById('backHome').onclick=()=>{panel.classList.remove('active');window.scrollTo({top:0,behavior:'smooth'})};
-const modal=document.getElementById('loginModal');document.getElementById('loginOpen').onclick=()=>modal.classList.add('show');document.getElementById('loginClose').onclick=()=>modal.classList.remove('show');document.getElementById('loginInfo').onclick=()=>{alert('سيتم تفعيل تسجيل الدخول في مرحلة ربط قاعدة البيانات.');modal.classList.remove('show')};
+const labels={lectures:'المحاضرات والدروس',schedule:'التوقيت والبرنامج الدراسي',announcements:'الإعلانات والتنبيهات',assignments:'الواجبات والأعمال الموجهة',library:'مكتبة الموارد'};
+function openGroup(group){
+ selected=group;
+ title.textContent='المجموعة '+group;
+ subtitle.textContent=group==='A'?'المدرج أ':'المدرج د';
+ badge.textContent='GROUP '+group;
+ panel.classList.add('active');
+ renderTab('lectures');
+ panel.scrollIntoView({behavior:'smooth',block:'start'});
+}
+function renderTab(tab){
+ document.querySelectorAll('[data-tab]').forEach(button=>button.classList.toggle('active',button.dataset.tab===tab));
+ content.innerHTML='<strong>'+labels[tab]+'</strong>لا توجد منشورات بعد في المجموعة '+selected+'. ستظهر هنا المواد التي ينشرها أساتذة هذه المجموعة.';
+}
+document.querySelectorAll('[data-group]').forEach(button=>button.addEventListener('click',()=>openGroup(button.dataset.group)));
+document.querySelectorAll('[data-tab]').forEach(button=>button.addEventListener('click',()=>renderTab(button.dataset.tab)));
+document.getElementById('backHome').addEventListener('click',()=>{panel.classList.remove('active');document.getElementById('home').scrollIntoView({behavior:'smooth',block:'start'});});
+const modal=document.getElementById('loginModal');
+document.getElementById('loginOpen')?.addEventListener('click',()=>modal.classList.add('show'));
+document.getElementById('loginClose').addEventListener('click',()=>modal.classList.remove('show'));
+document.getElementById('loginInfo').addEventListener('click',()=>modal.classList.remove('show'));
+modal.addEventListener('click',event=>{if(event.target===modal)modal.classList.remove('show');});
 </script>
-</body></html>
+</body>
+</html>
